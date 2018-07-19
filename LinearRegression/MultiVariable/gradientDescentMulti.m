@@ -5,8 +5,6 @@ J_history = zeros(num_iters, 1);
 
 for iter = 1:num_iters
     XVect = X*theta - y;
-    size(XVect');
-    size(X);
     dec = XVect'*X;
     factor = alpha/m;
     theta = theta - factor*(dec');  

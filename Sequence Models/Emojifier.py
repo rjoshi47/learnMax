@@ -160,4 +160,13 @@ print("Test accuracy = ", acc)
 x_test = np.array(['Lets play'])
 X_test_indices = sentences_to_indices(x_test, word_to_index, maxLen)
 print(x_test[0] +' '+  label_to_emoji(np.argmax(model.predict(X_test_indices))))
+# output: Lets play ⚾
 
+'''
+Some predictions by model
+Input               Output
+want to eat food    🍴
+She loves me        ❤️
+I got new job       😄
+I lost my phone     😞
+'''

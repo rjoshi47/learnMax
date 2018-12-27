@@ -3,6 +3,7 @@
 A sequence model that takes 5 character text input and predicts an emoji.
 
 <h3>Model</h3>:
+
 | Layer (type)         | Output Shape            | Param #  |
 | ------------- |:-------------:| -----:|
 | input_2 (InputLayer)      | right-aligned | $1600 |

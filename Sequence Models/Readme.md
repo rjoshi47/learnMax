@@ -1,4 +1,4 @@
-<h1>Emojifier.py</h1>
+<h2>Emojifier.py</h2>
 <h3>Summary</h3>
 A sequence model that takes 5 character text input and predicts an emoji.
 
@@ -17,12 +17,9 @@ A sequence model that takes 5 character text input and predicts an emoji.
 
 
 <h2>Some predictions by model</h2>
-Input               Output
-
-want to eat food    🍴
-
-She loves me        ❤️
-
-I got new job       😄
-
-I lost my phone     😞
+| Input        | Prediction           | 
+| ------------- |:-------------:|
+| want to eat food      | 🍴 | 
+| She loves me       | ❤️      |   
+| I got new job | 😄      |  
+| I lost my phone | 😞|  

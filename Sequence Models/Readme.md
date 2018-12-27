@@ -16,7 +16,8 @@ A sequence model that takes 5 character text input and predicts an emoji.
 | activation_2 (Activation)       | (None, 5)        |   0 |
 
 
-<h2>Some predictions by model</h2>
+<h3>Some predictions by model</h3>
+
 | Input        | Prediction           | 
 | ------------- |:-------------:|
 | want to eat food      | 🍴 | 

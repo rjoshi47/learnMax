@@ -1,7 +1,6 @@
 1. Emojifier.py
 Summary:A sequence model that takes 5 character text input and predicts an emoji.
 Model:
-'''
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -21,7 +20,7 @@ dense_2 (Dense)              (None, 5)                 645
 _________________________________________________________________
 activation_2 (Activation)    (None, 5)                 0         
 =================================================================
-'''
+
 Some predictions by model
 Input               Output
 want to eat food    🍴

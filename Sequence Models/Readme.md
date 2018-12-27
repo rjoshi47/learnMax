@@ -21,7 +21,7 @@ _________________________________________________________________
 activation_2 (Activation)    (None, 5)                 0         
 =================================================================
 
-Some predictions by model
+<h2>Some predictions by model</h2>
 Input               Output
 want to eat food    🍴
 She loves me        ❤️

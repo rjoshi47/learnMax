@@ -3,34 +3,17 @@
 A sequence model that takes 5 character text input and predicts an emoji.
 
 <h3>Model</h3>:
-_________________________________________________________________
+| Layer (type)         | Output Shape            | Param #  |
+| ------------- |:-------------:| -----:|
+| input_2 (InputLayer)      | right-aligned | $1600 |
+| embedding_2 (Embedding)      | centered      |   $12 |
+| lstm_3 (LSTM)  | are neat      |    $1 |
+| dropout_3 (Dropout)       | right-aligned | $1600 |
+| lstm_4 (LSTM)     | centered      |   $12 |
+| dropout_4 (Dropout) | are neat      |    $1 |
+| dense_2 (Dense)        | right-aligned | $1600 |
+| activation_2 (Activation)       | centered      |   $12 |
 
-Layer (type)                 Output Shape              Param #   
-=================================================================
-
-input_2 (InputLayer)         (None, 10)                0         
-_________________________________________________________________
-
-embedding_2 (Embedding)      (None, 10, 50)            20000050  
-_________________________________________________________________
-
-lstm_3 (LSTM)                (None, 10, 128)           91648     
-_________________________________________________________________
-
-dropout_3 (Dropout)          (None, 10, 128)           0         
-_________________________________________________________________
-
-lstm_4 (LSTM)                (None, 128)               131584    
-_________________________________________________________________
-
-dropout_4 (Dropout)          (None, 128)               0         
-_________________________________________________________________
-
-dense_2 (Dense)              (None, 5)                 645       
-_________________________________________________________________
-
-activation_2 (Activation)    (None, 5)                 0         
-=================================================================
 
 <h2>Some predictions by model</h2>
 Input               Output

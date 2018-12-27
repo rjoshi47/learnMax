@@ -1,29 +1,44 @@
 <h1>Emojifier.py</h1>
-Summary:A sequence model that takes 5 character text input and predicts an emoji.
-Model:
+<h3>Summary</h3>:
+A sequence model that takes 5 character text input and predicts an emoji.
+
+<h3>Model</h3>:
 _________________________________________________________________
+
 Layer (type)                 Output Shape              Param #   
 =================================================================
+
 input_2 (InputLayer)         (None, 10)                0         
 _________________________________________________________________
+
 embedding_2 (Embedding)      (None, 10, 50)            20000050  
 _________________________________________________________________
+
 lstm_3 (LSTM)                (None, 10, 128)           91648     
 _________________________________________________________________
+
 dropout_3 (Dropout)          (None, 10, 128)           0         
 _________________________________________________________________
+
 lstm_4 (LSTM)                (None, 128)               131584    
 _________________________________________________________________
+
 dropout_4 (Dropout)          (None, 128)               0         
 _________________________________________________________________
+
 dense_2 (Dense)              (None, 5)                 645       
 _________________________________________________________________
+
 activation_2 (Activation)    (None, 5)                 0         
 =================================================================
 
 <h2>Some predictions by model</h2>
 Input               Output
+
 want to eat food    🍴
+
 She loves me        ❤️
+
 I got new job       😄
+
 I lost my phone     😞
